@@ -31,6 +31,8 @@ func main() {
 		fmt.Println("hari maret :)")
 	case 11:
 		fmt.Println("Valentine")
+	case 12:
+		fmt.Println("Kalkulus Putaaa")
 	default:
 		fmt.Println("Angka tidak valid!")
 	}
