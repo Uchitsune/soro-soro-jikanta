@@ -1,0 +1,8 @@
+# ignore executeable files
+.exe
+
+# ignore log files
+.log
+
+# ignore environment files
+.env
