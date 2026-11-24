@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	var hari int
 
-	fmt.Print("Masukkan angka hari (1-7): ")
+	fmt.Print("Masukkan angka hari (1-8): ")
 	fmt.Scan(&hari)
 
 	switch hari {
@@ -23,6 +23,8 @@ func main() {
 		fmt.Println("Sabtu")
 	case 7:
 		fmt.Println("Minggu")
+	case 8:
+		fmt.Println("Bayar Pajak")
 	default:
 		fmt.Println("Angka tidak valid!")
 	}
